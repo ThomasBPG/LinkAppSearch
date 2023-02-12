@@ -4,7 +4,7 @@ I wanted to build a small and efficient app to store links to various stuff, tha
 It's very simple; you save a URL with a Title, Description and optional tags. A Link can have 0 to many tags associated. 
 You can search in freetext and by tags.
 
-I'm kind of novice in Javascript, so I made this small project also to train my Javascript skills.
+I'm kind of novice in JavaScript, so I made this small project also to train my skills. 
 
 You may deploy the components as you see fit (as Home page like below, on Record pages etc.), but this is how it looks like for me:
 ![image](https://user-images.githubusercontent.com/16976573/218338061-13172686-24cb-4cc8-917b-926dcfd00be8.png)
@@ -25,3 +25,4 @@ Sure, give it a go. Please do not hesitate to drop me pull-requests or raise an 
 
 ## Upcoming features
 I want to improve the freetext search to include tag-searching as well. Also, I want to see the tags per link shown along the search results.
+I'd like to make more comments in the code, it will come eventually.

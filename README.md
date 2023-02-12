@@ -2,7 +2,7 @@
 
 Something...
 
-This is how it actually looks like !
+You may deploy the components as you see fit (as Home page like below, on Record pages etc.), but this is how it looks like for me:
 ![image](https://user-images.githubusercontent.com/16976573/218338061-13172686-24cb-4cc8-917b-926dcfd00be8.png)
 
 ## Custom objects

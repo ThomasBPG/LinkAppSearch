@@ -1,18 +1,14 @@
-# Salesforce DX Project: Next Steps
+# What is this ?
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Something...
 
-## How Do You Plan to Deploy Your Changes?
+## Custom objects
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+There are three custom objects defined: Link__c, Tag__c and TagAssociaion__c. Metadata is in.
 
-## Configure Your Salesforce DX Project
+## Where can it run ?
+So it obviously depends on the amount of links and tags you populate. I personally just run in a Trailhead Playground and I still have plenty of space left in the 5 MB included.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Okay to fork ?
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Sure, give it a go. Please do not hesitate to drop me pull-requests or raise an issue, if you find issues or have a good idea for enhancement.

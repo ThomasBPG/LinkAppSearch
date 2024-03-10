@@ -10,7 +10,7 @@ You may deploy the components as you see fit (as Home page like below, on Record
 ![image](https://user-images.githubusercontent.com/16976573/218338061-13172686-24cb-4cc8-917b-926dcfd00be8.png)
 
 ## Custom objects, Flows and Lightning Web Components
-There are three custom objects defined: Link__c, Tag__c and TagAssociaion__c. Metadata is in https://github.com/ThomasBPG/LinkAppSearch/tree/master/force-app/main/default/objects
+There are three custom objects defined: Link__c, Tag__c and TagAssociation__c. Metadata is in https://github.com/ThomasBPG/LinkAppSearch/tree/master/force-app/main/default/objects
 
 Adding Links and creating Tags is solved with Flows. Metadata is in https://github.com/ThomasBPG/LinkAppSearch/tree/master/force-app/main/default/flows
 

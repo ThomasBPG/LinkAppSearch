@@ -27,7 +27,10 @@
         <name>Create_Tag</name>
         <label>Create Tag</label>
         <locationX>176</locationX>
-        <locationY>278</locationY>
+        <locationY>242</locationY>
+        <faultConnector>
+            <targetReference>Error</targetReference>
+        </faultConnector>
         <inputAssignments>
             <field>Name</field>
             <value>
@@ -41,7 +44,7 @@
         <name>Add_Tag</name>
         <label>Add Tag</label>
         <locationX>176</locationX>
-        <locationY>158</locationY>
+        <locationY>134</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -56,6 +59,22 @@
             <isRequired>true</isRequired>
         </fields>
         <nextOrFinishButtonLabel>Add</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Error</name>
+        <label>Error</label>
+        <locationX>440</locationX>
+        <locationY>350</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Display1</name>
+            <fieldText>&lt;p&gt;Error: {!$Flow.FaultMessage}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>

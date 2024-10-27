@@ -4,11 +4,11 @@
         <lightning-input value={searchTerm} onkeypress={runSearch}></lightning-input>
         <br />
         <template lwc:if={searchResult}>
-        <template for:each={searchResult} for:item="link">
-          <div key={searchResult.Name}>
-              <lightning-formatted-url value={link.URL__c} label={link.Name}></lightning-formatted-url> - {link.Description__c}
-          </div>
-        </template>
+          <template for:each={searchResult} for:item="link">
+            <div key={searchResult.Name}>
+                <lightning-formatted-url value={link.URL__c} label={link.Name}></lightning-formatted-url> - {link.Description__c}
+            </div>
+          </template>
         </template>
         <template lwc:elseif={error}>
             Error: {error}

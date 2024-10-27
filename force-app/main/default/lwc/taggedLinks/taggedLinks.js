@@ -7,7 +7,7 @@ export default class TaggedLinks extends LightningElement {
     @wire(getTags) getTags;
 
     tagItems = [];
-    @track tagValue = 'a017Q000017i9DWQAY'; // Yes, this is a hack...
+    @track tagValue = 'a017Q00001B7pQeQAJ'; // Yes, this is a hack...
 
     @track searchResult;
     @track error;

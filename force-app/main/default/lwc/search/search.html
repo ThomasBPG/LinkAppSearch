@@ -13,8 +13,7 @@
               <lightning-formatted-url
                 value={link.URL__c}
                 label={link.Name}
-              ></lightning-formatted-url>
-              - {link.Description__c}
+              ></lightning-formatted-url> - {link.Description__c}
             </div>
             <template lwc:if={link.TagAssociations__r}>
               <div class="slds-m-top_xx-small">

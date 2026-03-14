@@ -1,6 +1,5 @@
 import { LightningElement,track } from 'lwc';
 import doSearch from '@salesforce/apex/SearchController.doSearch';
-import getTagsFromLinkIds from '@salesforce/apex/TagsController.getTagsFromLinkIds';
 
 export default class Search extends LightningElement {
 
@@ -39,23 +38,5 @@ export default class Search extends LightningElement {
                 });
             }
         }
-    }
-
-    getTags(linkIds)
-    {
-        getTagsFromLinkIds({linkIds: linkIds})
-        .then(links =>
-        {
-            this.tags = links;
-
-            // Do some magic with a Map or associative array here...
-
-            this.error = undefined;
-        })
-        .catch(error =>
-        {
-            this.error = "Search failed";
-            this.searchResult = undefined;        
-        });
     }
 }

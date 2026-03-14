@@ -18,16 +18,6 @@ export default class Search extends LightningElement {
                 doSearch({queryText: this.searchTerm})
                 .then(links =>
                 {
-                    /*
-                    // Add link to edit
-                    for(let i=0; i<links.length; i++)
-                    {
-                        link = links[i];
-                        //var editableLink = {"editLink": "https://dr.dk"};
-                        //allTogether = [...link,...editableLink];
-                        //console.debug(JSON.stringify(link));
-                    }
-                    */
                     this.searchResult = links;
                     this.error = undefined;
                 })
